@@ -4,6 +4,10 @@ html {
   font-size: 16px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   border-left: 4px solid #00bcec;
   border-right: 4px solid #00bcec;
@@ -17,10 +21,12 @@ body {
   height: 120px;
   margin: 0;
   padding: 24px 80px;
+  display: flex;
 }
 
 .bw-header .bw-header-content {
   margin: auto 0;
+  display: flex;
   height: auto;
 }
 
@@ -34,6 +40,15 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1200px) {
+  .bw-header {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+
+
 .bw-footer {
   background: #00bcec;
   color: #F6FBFE;
@@ -41,9 +56,12 @@ body {
   width: 100%;
   padding: 8px 80px;
   height: 64px;
+  display: flex;
 }
 
 .bw-footer .bw-footer-content {
+  display: flex;
+  flex-direction: row;
   margin: auto 0;
 }
 
@@ -60,8 +78,17 @@ body {
   display: block;
 }
 
+@media (max-width: 1200px) {
+  .bw-footer {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
 .bw-body {
   background: #C9D6DF;
+  display: flex;
+  min-height: calc(100vh - 120px - 64px);
 }
 
 
@@ -71,6 +98,8 @@ body {
   margin: 0px auto;
   width: 100%;
   max-width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
 
