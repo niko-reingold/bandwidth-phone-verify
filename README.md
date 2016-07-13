@@ -2,8 +2,6 @@
 
 This is a basic number verification app made from modifying heroku's getting started program.  It utilizes the flask web framework.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 ## Documentation
 
 For more information about using Python on Heroku, see these Dev Center articles:
