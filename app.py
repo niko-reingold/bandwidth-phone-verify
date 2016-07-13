@@ -9,8 +9,8 @@ import os
 
 app = Flask(__name__)
 
-#Client(os.environ['BANDWIDTH_USER_ID'], os.environ['BANDWIDTH_API_TOKEN'], os.environ['BANDWIDTH_API_SECRET'])
-#fromNumber = os.environ['PHONE_NUMBER']
+Client(os.environ['BANDWIDTH_USER_ID'], os.environ['BANDWIDTH_API_TOKEN'], os.environ['BANDWIDTH_API_SECRET'])
+fromNumber = os.environ['PHONE_NUMBER']
 
 code = random.randint(1000, 9999)
 
