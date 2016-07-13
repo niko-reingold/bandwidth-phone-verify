@@ -1,0 +1,26 @@
+{
+  "name": "Python on Heroku example",
+  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "repository": "https://github.com/heroku/python-getting-started",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "BANDWIDTH_USER_ID": {
+      "description": "UserId for authentication.  Found on the account tab of the Bandwidth developer console.",
+      "required": "true"
+    },
+    "BANDWIDTH_API_TOKEN": {
+      "description": "Token for authentication.  Found on the account tab of the Bandwidth developer console.",
+      "required": "true"
+    },
+    "BANDWIDTH_API_Secret": {
+      "description": "Secret for authentication.  Found on the account tab of the Bandwidth developer console.",
+      "required": "true"
+    },
+    "PHONE_NUMBER": {
+      "description": "Bandwidth phone number that will send messages and transfer incoming messages.  Bandwidth number associated with your app on the my apps tab.",
+      "required": "true"
+    }
+  }
+}

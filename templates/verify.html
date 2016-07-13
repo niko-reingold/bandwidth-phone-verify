@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action='/result' class="pure-form">
+  <input type="text" name="input" placeholder="Code" required="true">
+  <input type="submit" name="action" value="Verify" class="button-primary pure-button">
+</form>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action='/verify' class="pure-form">
+  <input type="text" name="number" placeholder="Phone number" required="true"/>
+  <input type="submit" name="action" value="Call" class="button-primary pure-button"/>
+  <input type="submit" name="action" value="SMS" class="button-primary pure-button"/>
+</form>
+
+{% endblock %}
