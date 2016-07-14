@@ -4,13 +4,14 @@ html,
 body {
   margin: 0;
   padding: 0;
-  color: #3a455c;
-  font-family: light;
+  color: #f7f7f7;
+  font-family: sans-serif;
   font-variant-numeric: lining-nums;
   -moz-font-feature-settings: "lnum";
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum";
+  background-color: #f7f7f7;
 }
 button {
   width: auto;
@@ -24,7 +25,7 @@ button {
   border-radius: 3px;
   padding: 0 25px;
   text-transform: uppercase;
-  font-family: medium;
+  font-family: sans-serif;
   cursor: pointer;
   cursor: hand;
 }
@@ -69,11 +70,11 @@ select {
   margin-top: .8em;
   margin-bottom: 1.8em;
   font-size: 1em;
-  font-family: light;
+  font-family: sans-serif;
   border: 1px solid #e1e1e1;
 }
 label {
-  font-family: semibold;
+  font-family: sans-serif;
 }
 select {
   height: 50px;
@@ -116,7 +117,7 @@ input[type=submit] {
   border-radius: 3px;
   padding: 0 25px;
   text-transform: uppercase;
-  font-family: medium;
+  font-family: sans-serif;
 }
 input[type=submit]:hover {
   background-color: #00a5cf;
@@ -132,15 +133,15 @@ a {
 /* LESS Document */
 /* LESS Document */
 @font-face {
-  font-family: semibold;
+  font-family: sans-serif;
   src: url("fonts/GarageFonts%20-%20FreightSans%20Pro%20Semibold.otf") format("opentype");
 }
 @font-face {
-  font-family: medium;
+  font-family: sans-serif;
   src: url("fonts/GarageFonts%20-%20FreightSans%20Pro%20Medium.otf") format("opentype");
 }
 @font-face {
-  font-family: light;
+  font-family: sans-serif;
   src: url("fonts/GarageFonts%20-%20FreightSans%20Pro%20Light.otf") format("opentype");
 }
 /* LESS Document */
@@ -216,7 +217,7 @@ nav .cta:hover {
   margin: 0px 0px 0px 100px;
   float: left;
   color: #a9afb9;
-  font-family: medium;
+  font-family: sans-serif;
 }
 #dashboardNav li {
   line-height: 10px;
@@ -266,7 +267,7 @@ nav .cta:hover {
 .hero h1 {
   margin: 0;
   padding-bottom: 1.5em;
-  font-family: medium;
+  font-family: sans-serif;
   text-align: center;
   font-size: 1em;
   text-transform: uppercase;
@@ -275,14 +276,14 @@ nav .cta:hover {
 .hero h2 {
   margin: 0;
   padding-bottom: .2em;
-  font-family: light;
+  font-family: sans-serif;
   font-weight: 100;
   text-align: center;
   font-size: 2.4em;
 }
 .hero h3 {
   margin: 0;
-  font-family: light;
+  font-family: sans-serif;
   font-weight: 100;
   text-align: center;
   font-size: 1.8em;
@@ -296,7 +297,7 @@ nav .cta:hover {
   border: 1px solid #e1e1e1;
 }
 .basicForm label {
-  font-family: semibold;
+  font-family: sans-serif;
 }
 .basicForm h1 {
   text-align: center;
@@ -309,7 +310,7 @@ nav .cta:hover {
   margin-top: .8em;
   margin-bottom: 1.8em;
   font-size: 1em;
-  font-family: light;
+  font-family: sans-serif;
   border: 1px solid #e1e1e1;
 }
 .basicForm select {
@@ -353,7 +354,7 @@ nav .cta:hover {
   border-radius: 3px;
   padding: 0 25px;
   text-transform: uppercase;
-  font-family: medium;
+  font-family: sans-serif;
   cursor: pointer;
   cursor: hand;
 }
@@ -369,7 +370,7 @@ nav .cta:hover {
   cursor: hand;
 }
 .basicForm span {
-  font-family: semibold;
+  font-family: sans-serif;
 }
 .basicForm span a {
   color: #008db1;
@@ -436,7 +437,7 @@ input[type=checkbox]:checked + label:after {
 }
 #ccProgress .completed .progressSnapshot h1::after {
   content: "Edit";
-  font-family: light;
+  font-family: sans-serif;
   font-size: .7em;
   color: #008db1;
   text-decoration: underline;
@@ -464,19 +465,19 @@ input[type=checkbox]:checked + label:after {
   font-size: 2em;
   line-height: 1.5em;
   width: 1.5em;
-  font-family: medium;
+  font-family: sans-serif;
 }
 .progressSnapshot {
   border-left: 2px solid #e1e1e1;
   padding-left: 3em;
 }
 .progressSnapshot h1 {
-  font-family: semibold;
+  font-family: sans-serif;
   margin: 0.5em 3em 1.6em 0em;
 }
 .progressSnapshot p {
   display: none;
-  font-family: light;
+  font-family: sans-serif;
   line-height: 1.5em;
   font-size: 1.2em;
   margin: -1.5em 0em 1.5em 0em;
@@ -541,7 +542,7 @@ input[type=checkbox]:checked + label:after {
   display: block;
   width: 100%;
   text-transform: uppercase;
-  font-family: semibold;
+  font-family: sans-serif;
   margin-bottom: 1em;
 }
 .leftNavDashboard .listView .selected {
