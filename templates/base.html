@@ -1,42 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-    <title>Phone Verificator</title>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Bandwidth Phone Verificator</title>
+<link rel="stylesheet" href="/static/buxstrap.css">
+<link rel="stylesheet" href="/static/animate.css">
+<link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
-<header class="bw-header">
-    <div class="bw-header-content">
-        <img class="bw-logo" src="https://s3.amazonaws.com/bandwidth-public-assets/bw_logo_white.svg"/>
-        <h1 class="bw-title">Phone Verificator</h1>
-    </div>
-</header>
-<div class="bw-body">
-    <div class="bw-body-content container">
-        <div class="pure-g">
-            <div class="pure-u-0 pure-u-sm-1-6"></div>
-            <div class="pure-u-1 pure-u-sm-2-3">
-                {% block content %}{% endblock %}
-            </div>
-            <div class="pure-u-0 pure-u-sm-1-6"></div>
-        </div>
-    </div>
-</div>
-<footer class="bw-footer">
-    <div class="bw-footer-content">
-        <img class="bw-logo-small" src="https://s3.amazonaws.com/bandwidth-public-assets/bw_logo_white.svg"/>
-        <div class="bw-info">
-            <span class="bw-copyright">&copy; 2016 Bandwidth.com</span>
-            <a class="bw-home-link" href="www.bandwidth.com">www.bandwidth.com</a>
-        </div>
-    </div>
-</footer>
+<!--Main Navigation-->
+<nav>
+   <ul>
+      <li><a href="http://ap.bandwidth.com/" style="text-decoration:none"> Documentation</a></li>
+      <li class="cta"><a href="https://github.com/niko-reingold/bandwidth-phone-verify" style="text-decoration:none"> View in Github</a></li>
+   </ul>
+</nav>
+
+<section id="navSpacing"></section>
+<!--Basic Form section-->
+<section class="formContainer">
+    <h1>Phone Verficator</h1>
+   {% block content %}{% endblock %}
+</section>
+
 </body>
-
 </html>
-
-

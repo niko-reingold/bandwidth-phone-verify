@@ -2,12 +2,15 @@
 
 {% block content %}
 
-{% if success %}
-    Number has been validated <img src="/static/Check_mark.png" alt="Success" height="20" width="20">
-  {% else %}
-    Invalid code <img src="/static/Red_x.png" alt="X" height="20" width="20">
-{% endif %}
-<form action="/">
-    <input type="submit" name="retry" value="New Number" class="button-primary pure-button"></div>
+
+<form action="/" class="basicForm">
+    <label>
+    {% if success %}
+        Number has been validated <img src="/static/Check_mark.png" alt="Success" height="20" width="20">
+    {% else %}
+        Invalid code <img src="/static/Red_x.png" alt="X" height="20" width="20">
+    {% endif %}
+    </label>
+    <input type="submit" name="retry" value="New Number">
 </form>
 {% endblock %}
