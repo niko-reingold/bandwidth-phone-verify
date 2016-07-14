@@ -14,7 +14,7 @@
       "description": "Token for authentication.  Found on the account tab of the Bandwidth developer console.",
       "required": "true"
     },
-    "BANDWIDTH_API_Secret": {
+    "BANDWIDTH_API_SECRET": {
       "description": "Secret for authentication.  Found on the account tab of the Bandwidth developer console.",
       "required": "true"
     },
